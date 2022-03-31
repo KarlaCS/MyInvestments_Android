@@ -42,7 +42,7 @@ jobs:
     - name: Distribute to App Center
       uses: wzieba/AppCenter-Github-Action@v1.2.1
       with:
-        appName: Devs_Academy/My investments
+        appName: DevsAcademy/My-investments
         token: ${{secrets.MYINVESTMENTS_TOKEN_APPCENTER}}
         group: Beta Testers
         file: ${{steps.download.outputs.download-path}}/app-debug.apk
